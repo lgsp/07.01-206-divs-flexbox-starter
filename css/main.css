@@ -109,6 +109,23 @@ body {
   height: 100%;
 }
 
+header, article {
+    color: #fff;
+}
+
+header {
+    font-family: 'IBM Plex Mono', cursive;
+}
+
+article {
+    font-family: 'Space Mono', monospace;
+}
+
+section {
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+
 .wrapper {
   /*
     add display:flex and set justify-content 
@@ -132,8 +149,8 @@ body {
   justify-content: center;
   align-items: center;
   color: #fff;
-  line-height: 1.5em;
-  font-size: 1em;
+  line-height: 1.4em;
+  font-size: .95em;
   background-color: #000;
   height: 300px;
 }
